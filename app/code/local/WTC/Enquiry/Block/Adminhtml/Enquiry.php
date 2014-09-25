@@ -1,4 +1,8 @@
 <?php
+//	this is a block file
+
+?>
+<?php
 class WTC_Enquiry_Block_Adminhtml_Enquiry extends Mage_Adminhtml_Block_Widget_Grid_Container
 {
 	public function __construct()
