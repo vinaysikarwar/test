@@ -1,6 +1,6 @@
 <?php
 //	this is a block file
-
+	// i think there is some problem i ahve to check it again
 ?>
 <?php
 class WTC_Enquiry_Block_Adminhtml_Enquiry extends Mage_Adminhtml_Block_Widget_Grid_Container
