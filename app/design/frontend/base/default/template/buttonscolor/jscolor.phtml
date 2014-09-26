@@ -1,0 +1,44 @@
+<?php 
+	// background fields
+	$addtocartbkg = Mage::getStoreConfig('btncolor/background/addtocart');
+	$addtowishlistbkg = Mage::getStoreConfig('btncolor/background/addtowishlist');
+	$addtocomparebkg = Mage::getStoreConfig('btncolor/background/addtocompare');
+	$continueshoppingbkg = Mage::getStoreConfig('btncolor/background/continueshopping');
+	$viewcartcheckoutbkg = Mage::getStoreConfig('btncolor/background/viewcartcheckout');
+	$updateshoppingcartbkg = Mage::getStoreConfig('btncolor/background/updateshoppingcart');
+	$proceedtocheckoutbkg = Mage::getStoreConfig('btncolor/background/proceedtocheckout');
+	$applycouponbkg = Mage::getStoreConfig('btncolor/background/applycoupon');
+	$getaquotebkg = Mage::getStoreConfig('btncolor/background/getaquote');
+	$registerbkg = Mage::getStoreConfig('btncolor/background/register');
+	$loginbkg = Mage::getStoreConfig('btncolor/background/login');
+	$continuebkg = Mage::getStoreConfig('btncolor/background/continue');
+	$placeorderbkg = Mage::getStoreConfig('btncolor/background/placeorder');
+	
+	//font color fields
+	$addtocartfontcolor = Mage::getStoreConfig('btncolor/background/addtocart');
+	$addtowishlistfontcolor = Mage::getStoreConfig('btncolor/background/addtowishlist');
+	$addtocomparefontcolor = Mage::getStoreConfig('btncolor/background/addtocompare');
+	$continueshoppingfontcolor = Mage::getStoreConfig('btncolor/background/continueshopping');
+	$viewcartcheckoutfontcolor = Mage::getStoreConfig('btncolor/background/viewcartcheckout');
+	$updateshoppingcartfontcolor = Mage::getStoreConfig('btncolor/background/updateshoppingcart');
+	$proceedtocheckoutfontcolor = Mage::getStoreConfig('btncolor/background/proceedtocheckout');
+	$applycouponfontcolor = Mage::getStoreConfig('btncolor/background/applycoupon');
+	$getaquotefontcolor = Mage::getStoreConfig('btncolor/background/getaquote');
+	$registerfontcolor = Mage::getStoreConfig('btncolor/background/register');
+	$loginfontcolor = Mage::getStoreConfig('btncolor/background/login');
+	$continuefontcolor = Mage::getStoreConfig('btncolor/background/continue');
+	$placeorderfontcolor = Mage::getStoreConfig('btncolor/background/placeorder');
+	
+?>
+<script type="text/javascript">
+	var jsc = jQuery.noConflict();
+	jsc(document).ready(function()
+	{
+		// color add to cart button
+		jsc('.button.btn-cart').css('background','<?php echo $addtocartbkg; ?>');
+		
+	
+	});
+
+
+</script>

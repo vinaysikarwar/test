@@ -1,0 +1,276 @@
+<?xml version="1.0"?>
+<config>
+	  <tabs>
+		<wtc translate="label" module="buttonscolor">
+            <label>Web Technology Codes</label>
+            <sort_order>0</sort_order>
+        </wtc>
+	  </tabs>
+	  <sections>
+		<btncolor  translate="label" module="buttonscolor">
+		<label>Manage Button Colors</label>
+		<tab>wtc</tab>
+		<frontend_type>text</frontend_type>
+		<sort_order>0</sort_order>
+		<show_in_default>1</show_in_default>
+		<show_in_website>1</show_in_website>
+		<show_in_store>1</show_in_store>            
+					<groups>
+				      <background translate="label"> 
+					  
+					  <label>Background Color</label>
+					  <frontend_type>text</frontend_type>
+					  <sort_order>0</sort_order>
+					  <show_in_default>1</show_in_default>
+					  <show_in_website>1</show_in_website>
+					  <show_in_store>1</show_in_store>
+				       <fields>
+                          <addtocart translate="label">
+                            <label>Add to Cart</label>
+							<frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </addtocart>
+                          <addtowishlist translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>Add to Wishlist</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </addtowishlist>
+                          <addtocompare translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>Add to Compare</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </addtocompare>
+                          <continueshopping translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>Continue Shopping</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </continueshopping>
+                          <viewcartcheckout translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>View Cart and Checkout</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </viewcartcheckout>
+                          <updateshoppingcart translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>Update Shopping Cart</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>5</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </updateshoppingcart>
+                          <proceedtocheckout translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>Proceed to Checkout</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>6</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </proceedtocheckout>
+                          <applycoupon translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>Apply Coupon</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>7</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </applycoupon>
+                          <getaquote translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>Get a Quote</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>8</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </getaquote>
+                          <register translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>Register</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>9</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </register>
+                          <login translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>Login</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </login>
+                          <continue translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>Continue</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>11</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </continue>
+                          <placeorder translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>Place Order</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>12</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </placeorder>
+					   </fields>
+					   </background>
+				      <fontcolor translate="label"> 
+					  <label>Font Color</label>
+					  <frontend_type>text</frontend_type>
+					  <sort_order>0</sort_order>
+					  <show_in_default>1</show_in_default>
+					  <show_in_website>1</show_in_website>
+					  <show_in_store>1</show_in_store>
+				       <fields>
+                          <addtocart translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>Add to Cart</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </addtocart>
+                          <addtowishlist translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>Add to Wishlist</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </addtowishlist>
+                          <addtocompare translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>Add to Compare</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </addtocompare>
+                          <continueshopping translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>Continue Shopping</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </continueshopping>
+                          <viewcartcheckout translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>View Cart and Checkout</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </viewcartcheckout>
+                          <updateshoppingcart translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>Update Shopping Cart</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>5</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </updateshoppingcart>
+                          <proceedtocheckout translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>Proceed to Checkout</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>6</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </proceedtocheckout>
+                          <applycoupon translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>Apply Coupon</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>7</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </applycoupon>
+                          <getaquote translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>Get a Quote</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>8</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </getaquote>
+                          <register translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>Register</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>9</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </register>
+                          <login translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>Login</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </login>
+                          <continue translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>Continue</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>11</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </continue>
+                          <placeorder translate="label">
+						  <frontend_model>buttonscolor/adminhtml_system_config_form_field_colorpicker</frontend_model>
+                            <label>Place Order</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>12</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                          </placeorder>
+					   </fields>
+					   </fontcolor>
+					</groups>
+		</btncolor>
+	  </sections>
+</config>
