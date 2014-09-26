@@ -1,9 +1,0 @@
-<?xml version="1.0"?>   
-<layout version="0.1.0">   
-	<default>
-		<reference name="content">
-			<block type="core/template" name="buttonscolor" template="buttonscolor/jscolor.phtml"/>     
-		</reference>
-	</default>
-</layout>   
-	
